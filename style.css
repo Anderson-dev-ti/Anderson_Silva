@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+body {
+    background-image: url('imagens/fundo.jpg');
+}
+
+main {
+    max-width: 600px;
+    background-color: rgba(255, 255, 255, 0.532);
+    border-radius: 10px;
+    padding: 10px;
+    margin: 0px auto;
+}
+
+main h1 {
+    text-align: center;
+}
+
+img.imagem_de_perfil {
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+    display: block;
+    margin: 0px auto;
+}
+
+p.descricao_das_imagens {
+    font-style: italic;
+    margin-bottom: 0px;
+}
+
+p.descricao_das_imagens::before{
+    content: '\2B07 \00A0'
+}
+
+p.descricao_das_imagens::after{
+    content: '\00A0 \2B07'
+}
+
+div.caixa_de_imagens {
+    height: 200px;
+    overflow-x: scroll;
+    display: flex;
+    gap: 10px;
+    padding: 5px;
+}
+
+div.caixa_de_imagens img {
+
+}
