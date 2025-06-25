@@ -1,34 +1,8 @@
-* {
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-body, html {
-    width: 100%;
-}
-
 body {
-    background-image: url('../imagens/fundo.jpg');
+    background-image: url('../imagens/gojo.png');
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: top center;
-}
-
-main {
-    background-color: rgba(255, 255, 255, 0.498);
-    padding: 10px;
-    border-radius: 20px;
-    padding: 10px;
-}
-
-section {
-    width: 100%;
-}
-
-h1 {
-    text-align: center;
+    background-position: center center;
 }
 
 main > section > img {
@@ -37,21 +11,6 @@ main > section > img {
     margin: 20px auto;
     display: block;
     border-radius: 50%;
-}
-
-main section p {
-    margin-bottom: 20px;
-    text-align: justify;
-}
-
-main section p a {
-    color: black;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-main section p a:hover {
-    font-weight: bold;
 }
 
 div.caixa_de_imagens {
@@ -67,24 +26,4 @@ div.caixa_de_imagens::-webkit-scrollbar {
 
 div.caixa_de_imagens img {
     width: 150px;
-}
-
-footer {
-    background-color: black;
-    color: white;
-    text-align: center;
-    padding: 5px;
-    margin-top: 20px;
-    width: 100%;
-}
-
-footer a {
-    color: white;
-    font-weight: bold;
-    text-decoration: none;
-}
-
-footer a:hover {
-    background-color: white;
-    color: black;
 }
